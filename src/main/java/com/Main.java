@@ -65,6 +65,7 @@ public class Main {
             }
         }
 
+        System.out.println("Please wait");
         //Download the vulnerable version from Github
         for (int i = 0; i < vulnerablePackage.getVulnerableVersions().size(); i++) {
             File file = new File("" + repositoryName + "-" + vulnerablePackage.getVulnerableVersions().get(i).getName() + ".tar.gz");
@@ -89,7 +90,7 @@ public class Main {
             System.out.println("Didn't found the folder");
         }
 
-        System.out.println("please wait");
+
     }
     /* --- Private Static Method --- */
     //Find match between the start point with the start point of the list
