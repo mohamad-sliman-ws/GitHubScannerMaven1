@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GithubApi.iml" filepath="$PROJECT_DIR$/GithubApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resource-downloader.iml" filepath="$PROJECT_DIR$/resource-downloader.iml" />
     </modules>
   </component>
 </project>

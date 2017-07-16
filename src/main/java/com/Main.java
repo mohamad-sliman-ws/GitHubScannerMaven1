@@ -88,6 +88,8 @@ public class Main {
         } else {
             System.out.println("Didn't found the folder");
         }
+
+        System.out.println("please wait");
     }
     /* --- Private Static Method --- */
     //Find match between the start point with the start point of the list
@@ -117,4 +119,5 @@ public class Main {
     private static String toHex(byte[] bytes) {
         return DatatypeConverter.printHexBinary(bytes);
     }
+
 }
