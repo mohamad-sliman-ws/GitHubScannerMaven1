@@ -7,4 +7,5 @@ pool:
 steps:
 - task: WhiteSource@20
   inputs:
+    projectName: 'Maven Scanner'
 
